@@ -38,4 +38,5 @@ print(f'The largest number you input is {largest_number(first_value, second_valu
 # 3 Count odd and even numbers
 user_number = input('\nEnter number: ')
 even_amount = count_even_odd(user_number)
-print(f'There are {even_amount} even numbers and {len(user_number) - even_amount} odd numbers in {user_number}')
+odd_amount = len(user_number) - even_amount
+print(f'There are {even_amount} even numbers and {odd_amount} odd numbers in {user_number}')
